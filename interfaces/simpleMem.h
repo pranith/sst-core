@@ -55,8 +55,9 @@ public:
             Read,       /*!< Issue a Read from Memory */
             Write,      /*!< Issue a Write to Memory */
             ReadResp,   /*!< Response from Memory to a Read */
-            WriteResp   /*!< Response from Memory to a Write */
-        } Command;
+            WriteResp,  /*!< Response from Memory to a Write */
+	    Invalidate
+	} Command;
 
         /**
          * Flags to specify conditions on a Request
