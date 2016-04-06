@@ -56,7 +56,8 @@ public:
             Write,      /*!< Issue a Write to Memory */
             ReadResp,   /*!< Response from Memory to a Read */
             WriteResp,  /*!< Response from Memory to a Write */
-	    Invalidate
+	    Invalidate,
+	    Permission
 	} Command;
 
         /**
